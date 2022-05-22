@@ -203,6 +203,12 @@ footer .contaco .formulario textarea {
     color: #a4a4a4;
 }
 
+footer .contaco .formulario input[type="text"]:focus,
+footer .contaco .formulario input[type="email"]:focus,
+footer .contaco .formulario textarea:focus {
+    border: 2px solid #3895ea;    
+}
+
 footer .contaco .formulario input[type="text"],
 footer .contaco .formulario input[type="email"] {
     width: 49%;
@@ -219,4 +225,17 @@ footer .contaco .formulario textarea {
     margin-bottom: 15px;
 }
 
-footer .contaco .formulario
+footer .contaco .formulario .boton {
+    margin: auto;
+    background: #3895ea;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+footer .contaco .formulario .boton:hover {
+    background: #387bea;
+}
+
