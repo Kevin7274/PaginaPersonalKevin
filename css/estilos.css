@@ -239,3 +239,55 @@ footer .contaco .formulario .boton:hover {
     background: #387bea;
 }
 
+footer .redes-sociales {
+    background: #1e2b38;
+    padding: 60px 0;
+}
+
+footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales a {
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 30px;
+    background: #ccc;
+    margin: 0 20px;
+}
+
+footer .redes-sociales .twitter:hover {background: 1da1f2; }
+footer .redes-sociales .facebook:hover {background: 1877f2; }
+footer .redes-sociales .instagram:hover {background: 833ab4; }
+footer .redes-sociales .github:hover {background: 6cc644; }
+footer .redes-sociales .youtube:hover {background: ff0000; }
+
+/* --- media queries --- */
+
+@media screen and (max-width: 800px) {
+    header .menu {
+        text-align: center;
+    }
+     
+    .main .Trabajos .contenedor-Trabajos .trabajo {
+        width: 46%;
+    }
+}
+@media screen and (max-width: 50px) {
+    header .contenedor-texto .texto .nombre {
+        font-size: 35px;
+    }
+    header .contenedor-texto .texto .profesion {
+        font-size: 18px;
+    }
+
+    footer .redes-sociales .contenedor {
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+}
