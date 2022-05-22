@@ -117,4 +117,57 @@ header .menu {
       color: #3895ea;
       text-decoration: underline;
   }
-  
+
+  .main .Trabajos {
+      background: #f2f2f2;
+      padding: 60px 0;
+  } 
+
+  .main .Trabajos .contenedor {
+      overflow: hidden;
+  }
+   .main .Trabajos .Titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+   }
+
+.main .Trabajos .contenedor-Trabajos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .Trabajos .contenedor-Trabajos .trabajo {
+    width: 23%;
+    margin-bottom: 40px;
+}
+.main .Trabajos .contenedor-Trabajos .trabajo .thumb {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main .Trabajos .contenedor-Trabajos .trabajo .thumb img {
+    width: 100%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+
+.main .Trabajos .contenedor-Trabajos .trabajo .descripcion {
+    text-align: center;
+}
+
+.main .Trabajos .contenedor-Trabajos .trabajo .descripcion .nombre {
+    font-weight: 700;
+    color: #3895ea;
+    margin-bottom: 10px;
+}
+
+.main .Trabajos .contenedor-Trabajos .trabajo .descripcion .categoria {
+    font-size: 14px;
+    color: #636363;
+}
